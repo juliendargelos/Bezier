@@ -1,0 +1,26 @@
+body, html, main {height: 100%;}
+
+body {
+	background: rgb(240,240,240);
+	overflow: hidden;
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+	stroke: #000;
+	stroke-width: 2px;
+	fill: none;
+	display: block;
+}
+
+svg circle {
+	fill: rgb(240,240,240);
+	cursor: pointer;
+}
+
+svg line {
+	stroke: rgb(160,160,160);
+	stroke-width: 1px;
+	stroke-dasharray: 2, 2;
+}
