@@ -292,7 +292,7 @@ var Bezier = function() {
 		animationCurve: {
 			get: function(){return animationCurve;},
 			set: function(v) {
-				if(typeof animationsCurves[v] == 'function') animationCurve = v;
+				if(typeof animationCurves[v] == 'function') animationCurve = v;
 			}
 		},
 		drawOnChange: {
